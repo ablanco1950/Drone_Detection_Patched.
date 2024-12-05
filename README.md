@@ -42,4 +42,6 @@ References:
 
  https://github.com/ablanco1950/Drone-Detection_Yolov10
  
+ Other test datasets from:
  
+ https://www.kaggle.com/datasets/sshikamaru/drone-yolo-detection/data
