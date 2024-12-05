@@ -31,7 +31,7 @@ The results are poor (they will be improved in later editions) and are mainly at
 
 The size of the patch: 128 is excessively large, the ideal would be 16, but this generates an excessive number of small files to train.
 
-The grouping of pieces is very simple, an envelope of all the pieces
+The grouping of patches is very simple, an envelope of all patches with a confidence
 
 References:
 
