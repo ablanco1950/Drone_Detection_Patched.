@@ -7,7 +7,7 @@ Installation:
 
 Download all the project files into a folder on disk and unzip the Test1.zip and Test2.zip files
 
-Download the files from https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set-yolov7/dataset/1 (you need to have a Roboflow key, which is free and does not cause any problems) The download folders appear in the Drone-Detection-data-set(yolov7)-1 folder
+Download the files from https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set-yolov7/dataset/1 (you need to have a Roboflow key, which is free ) The download folders appear in the Drone-Detection-data-set(yolov7)-1 folder
 
 Create the folder layout that resnet requires by running:
 
