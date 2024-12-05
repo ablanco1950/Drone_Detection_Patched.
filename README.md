@@ -11,15 +11,15 @@ Download the files from https://universe.roboflow.com/drone-detection-pexej/dron
 
 Create the folder layout that resnet requires by running:
 
-CreateDirResnetPatches.py
+python CreateDirResnetPatches.py
 
-Train the English:model:
+Train the resnet model:
 
-TrainDronePatcheds_Resnet_Pytorch.py
+python TrainDronePatcheds_Resnet_Pytorch.py
 
 Evaluation with the images from the test folder of the Roboflow download:
 
-EvaluateDroneByPatches.py
+python EvaluateDroneByPatches.py
 
 the detected pieces are marked in blue and the envelope in red.
 
@@ -32,3 +32,9 @@ The results are poor (they will be improved in later editions) and are mainly at
 The size of the patch: 128 is excessively large, the ideal would be 16, but this generates an excessive number of small files to train.
 
 The grouping of pieces is very simple, an envelope of all the pieces
+
+References:
+
+ https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set-yolov7/dataset/1 into an object detection: drones
+
+ The resnet cnn is the same as in
