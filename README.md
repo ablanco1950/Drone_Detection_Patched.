@@ -37,4 +37,6 @@ References:
 
  https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set-yolov7/dataset/1 into an object detection: drones
 
- The resnet cnn is the same as in
+ The resnet cnn is the same as in:
+ https://github.com/ablanco1950/CarsBrands_Resnet_Pytorch
+ 
