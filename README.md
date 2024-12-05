@@ -39,4 +39,7 @@ References:
 
  The resnet cnn is the same as in:
  https://github.com/ablanco1950/CarsBrands_Resnet_Pytorch
+
+ https://github.com/ablanco1950/Drone-Detection_Yolov10
+ 
  
