@@ -5,7 +5,7 @@ Experiment that tries to convert a resnet model obtained using as input dataset 
 
 Installation:
 
-Download all the project files into a folder on disk and unzip the Test1.zip and Test2.zip files
+Download all the project files into a folder on disk.
 
 Download the files from https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set-yolov7/dataset/1 (you need to have a Roboflow key, which is free ) The download folders appear in the Drone-Detection-data-set(yolov7)-1 folder
 
