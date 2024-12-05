@@ -1,0 +1,41 @@
+Microsoft Windows [Versión 10.0.22631.4460]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+(yolov11) C:\Users\Alfonso Blanco>cd c:\Drone_Detection_Patched
+
+(yolov11) c:\Drone_Detection_Patched>python TrainDronePatcheds_Resnet_Pytorch.py
+C:\Users\Alfonso Blanco\AppData\Roaming\Python\Python39\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\Alfonso Blanco\AppData\Roaming\Python\Python39\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+No. epochs: 1,             Training Loss: 0.621             Valid Loss: 0.503             Valid Accuracy: 0.753
+No. epochs: 1,             Training Loss: 1.111             Valid Loss: 0.477             Valid Accuracy: 0.76
+No. epochs: 2,             Training Loss: 0.069             Valid Loss: 0.464             Valid Accuracy: 0.772
+No. epochs: 2,             Training Loss: 0.503             Valid Loss: 0.443             Valid Accuracy: 0.782
+No. epochs: 2,             Training Loss: 0.927             Valid Loss: 0.442             Valid Accuracy: 0.786
+No. epochs: 3,             Training Loss: 0.114             Valid Loss: 0.421             Valid Accuracy: 0.793
+No. epochs: 3,             Training Loss: 0.497             Valid Loss: 0.417             Valid Accuracy: 0.797
+No. epochs: 3,             Training Loss: 0.882             Valid Loss: 0.414             Valid Accuracy: 0.799
+No. epochs: 4,             Training Loss: 0.169             Valid Loss: 0.415             Valid Accuracy: 0.801
+No. epochs: 4,             Training Loss: 0.54             Valid Loss: 0.41             Valid Accuracy: 0.801
+No. epochs: 4,             Training Loss: 0.901             Valid Loss: 0.408             Valid Accuracy: 0.802
+No. epochs: 5,             Training Loss: 0.217             Valid Loss: 0.406             Valid Accuracy: 0.802
+No. epochs: 5,             Training Loss: 0.581             Valid Loss: 0.415             Valid Accuracy: 0.802
+No. epochs: 5,             Training Loss: 0.947             Valid Loss: 0.412             Valid Accuracy: 0.802
+No. epochs: 6,             Training Loss: 0.272             Valid Loss: 0.408             Valid Accuracy: 0.801
+No. epochs: 6,             Training Loss: 0.633             Valid Loss: 0.409             Valid Accuracy: 0.804
+No. epochs: 6,             Training Loss: 1.0             Valid Loss: 0.41             Valid Accuracy: 0.802
+No. epochs: 7,             Training Loss: 0.331             Valid Loss: 0.411             Valid Accuracy: 0.801
+No. epochs: 7,             Training Loss: 0.692             Valid Loss: 0.414             Valid Accuracy: 0.801
+No. epochs: 8,             Training Loss: 0.018             Valid Loss: 0.408             Valid Accuracy: 0.806
+No. epochs: 8,             Training Loss: 0.382             Valid Loss: 0.411             Valid Accuracy: 0.801
+No. epochs: 8,             Training Loss: 0.743             Valid Loss: 0.407             Valid Accuracy: 0.803
+No. epochs: 9,             Training Loss: 0.077             Valid Loss: 0.407             Valid Accuracy: 0.806
+No. epochs: 9,             Training Loss: 0.438             Valid Loss: 0.414             Valid Accuracy: 0.802
+No. epochs: 9,             Training Loss: 0.799             Valid Loss: 0.409             Valid Accuracy: 0.802
+No. epochs: 10,             Training Loss: 0.127             Valid Loss: 0.407             Valid Accuracy: 0.804
+No. epochs: 10,             Training Loss: 0.493             Valid Loss: 0.409             Valid Accuracy: 0.801
+No. epochs: 10,             Training Loss: 0.857             Valid Loss: 0.408             Valid Accuracy: 0.801
+Test accuracy of model: 63.77%
+
+(yolov11) c:\Drone_Detection_Patched>
