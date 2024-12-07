@@ -12,7 +12,7 @@ import cv2
 import os
 import re
 
-imgpath_from= "test\\images"
+imgpath_from= "Drone-Detection-data-set(yolov7)-1\\test\\images"
 #imgpath_from= "C:\\Drone-Detection_Yolov10\\Drone-Detection-data-set(yolov7)-1\\test\\images"
 #imgpath_from= "Test1"
 #imgpath_from= "Test2"
