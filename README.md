@@ -27,11 +27,11 @@ Conclusions:
 
 The project aims to create an image detector from an image classification model (resnet).
 
-The results are poor (they will be improved in later editions) and are mainly attributed to:
+The results are poor and are mainly attributed to:
 
-The size of the patch: 128 is excessively large, the ideal would be 16, but this generates an excessive number of small files to train.
+  The size of the patch: 128 is excessively large, the ideal would be 16, but this generates an excessive number of small files to train and also an excessive time in the predictions of each of the 16*16 pieces in which the image to be detected would be divided.
 
-The grouping of patches is very simple, an envelope of all patches with a confidence
+  The grouping, segementation of patches is very simple, an envelope of all patches with a limit confidence
 
 References:
 
